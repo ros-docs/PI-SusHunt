@@ -24,13 +24,20 @@ article {
     border: 1.0cm solid transparent;
 }
 
-.scan_qrcode {
+.posters_map {
+    border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
+    float: inline-end;
+    margin-top: 0%;
+    width: 40vw;
+    scale: 90%;
+}
 
+.scan_qrcode {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-start;
     margin-top: -4%;
     width: 40vw;
-    scale: 70%;
+    scale: 80%;
 }
 
 .title {
@@ -38,10 +45,9 @@ article {
 }
 
 .winner_podium {
-
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: -4%;
+    margin-top: 0%;
     width: 40vw;
     scale: 85%;
 }

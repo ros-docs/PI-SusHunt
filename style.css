@@ -27,7 +27,7 @@ article {
 .posters_map {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: 0%;
+    margin-top: -2%;
     width: 40vw;
     scale: 90%;
 }
@@ -47,7 +47,7 @@ article {
 .winner_podium {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: 0%;
+    margin-top: 2%;
     width: 40vw;
     scale: 85%;
 }

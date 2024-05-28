@@ -10,10 +10,26 @@ body {
     text-align: justify;
 }
 
+img{
+    scale: 1vw;
+}
+
+p {
+    margin-top: 4%;
+}
+
 article {
-    background-color: rgba(133, 133, 133, 0.2);
+    background-color: rgba(50, 50, 50, 0.4);
     border-radius: 25px 25px 25px 25px;
-    border: 0.5cm solid transparent;
+    border: 1.0cm solid transparent;
+}
+
+.scan_qrcode {
+
+    border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
+    float: inline-start;
+    margin-top: -7.5%;
+    scale: 70%;
 }
 
 .title {

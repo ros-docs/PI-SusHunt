@@ -1,33 +1,52 @@
+article {
+    background-color: rgba(37, 37, 37, 0.4);
+    border-radius: 25px 25px 25px 25px;
+    border: 0.5cm solid transparent;
+}
+
 body {
     background-color: #181717;
     color: aliceblue;
     font-family: sans-serif;
-    font-size: 2vw;
-    margin-bottom: 2.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2.5%;
+    font-size: 2.5vw;
+    margin-bottom: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5%;
     text-align: justify;
 }
 
+header{
+    background-color: rgba(63, 145, 31, 0.2);
+    border: 0.5cm solid transparent;
+    border-radius: 0 0 50% 50%;
+    margin-bottom: 2%;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: -1.5%;
+}
 img{
     scale: 1vw;
+}
+
+footer {
+    background-color: rgba(63, 145, 31, 0.2);
+    border: 0.2cm solid transparent;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: -3%;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: 2%;
 }
 
 p {
     margin-top: 4%;
 }
 
-article {
-    background-color: rgba(50, 50, 50, 0.4);
-    border-radius: 25px 25px 25px 25px;
-    border: 1.0cm solid transparent;
-}
-
 .posters_map {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: -2%;
+    margin-top: 5%;
     width: 40vw;
     scale: 90%;
 }
@@ -35,7 +54,7 @@ article {
 .scan_qrcode {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-start;
-    margin-top: -4%;
+    margin-top: 2%;
     width: 40vw;
     scale: 80%;
 }
@@ -47,7 +66,7 @@ article {
 .winner_podium {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: 2%;
+    margin-top: 7%;
     width: 40vw;
     scale: 85%;
 }

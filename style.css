@@ -11,7 +11,7 @@ body {
 }
 
 article {
-    background-color: rgba(27, 27, 27, 0.4);
+    background-color: rgba(27, 27, 27, 0.6);
     border-radius: 25px 25px 25px 25px;
     border: 0.5cm solid transparent;
     border-image-slice: 1;

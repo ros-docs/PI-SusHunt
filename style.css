@@ -18,9 +18,7 @@ body {
 }
 
 header{
-    animation: openpage 1s;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 0.5cm solid transparent;
+    background-color: rgba(37, 37, 37, 0.4);
     border-radius: 0 0 50% 50%;
     margin-bottom: 2%;
     margin-left: -3%;
@@ -44,6 +42,13 @@ footer {
 
 p {
     margin-top: 4%;
+}
+
+.page_banner {
+    animation: banner_anm 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    width: 100%;
 }
 
 .posters_map {
@@ -72,6 +77,11 @@ p {
     margin-top: 8%;
     width: 40vw;
     scale: 85%;
+}
+
+@keyframes banner_anm {
+    from {margin-top: relative;}
+    to {margin-top: -35%;}
 }
 
 @keyframes openpage {

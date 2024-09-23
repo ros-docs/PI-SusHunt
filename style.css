@@ -54,7 +54,7 @@ p {
 .posters_map {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-end;
-    margin-top: 6%;
+    margin-top: -5%;
     width: 40vw;
     scale: 90%;
 }

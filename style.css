@@ -60,19 +60,19 @@ p {
     width: 100%;
 }
 
-.posters_map {
+.posters {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
-    float: inline-end;
-    margin-top: -5%;
+    float: inline-start;
+    margin-top: -10%;
     width: 40vw;
-    scale: 90%;
+    scale: 70%;
 }
 
 .scan_qrcode {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-start;
     margin-top: 7%;
-    width: 40vw;
+    width: 70vw;
     scale: 80%;
 }
 

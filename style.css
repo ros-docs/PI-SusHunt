@@ -1,92 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
-    <title>SusHunt</title>
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <img src="Images/page_banner.png" class="page_banner">
-    </header>
-    <article>
-      <br>
-      <div>
+article {
+    animation: openpage 5s;
+    background-color: rgba(37, 37, 37, 0.4);
+    border-radius: 25px 25px 25px 25px;
+    border: 0.5cm solid transparent;
+}
 
-      </div>
-      <div>
-        <p>
-          O cartas que você acaba de escanear te trouxe até largada. E é aqui
-          que você vai aprender o que precisa fazer para ganhar o prêmio deste
-          jogo, mas fique atento, a página não vai só te ensinar a jogar, ela
-          também esconde as três dicas que você vai precisar para começar.
-        </p>
-        <h3 class="title"> Mas afinal, como se joga isso? </h3>
-        <ol>
-          <li>
-            <b>Explore o SENAC:</b> Procure pelos cartazes espalhados por todo o ambiente
-            do SENAC para encontrar dicas e as cartas finais colecionáveis. <b>Os ganhadores
-            receberão brindes!</b>
-          </li>
-          <br>
-          <li>
-            <b>Achar e escanear:</b> Vocês terão acesso a cartazes com QR codes e cartazes
-            com dicas para ajudá-los em sua busca pelo tesouro, dicas que serão parecidas
-            com esta:
-            <b style="color: #2F81F6">“</b><i style="font-size: 2vw;">Entre páginas e
-            histórias para contar, procure onde o silêncio faz morada. Entre prateleiras,
-            escondida está, a pista que te levará à próxima jornada.</i><b style="color: #2F81F6">”</b>.
-            Fiquem atentos às <b>charadas</b> e aos conteúdos disponibilizados para que
-            vocês desfrutem melhor do objetivo da dinâmica.
-          </li>
-          <br>
-          <li>
-            <b>Complete a coleção:</b> Você precisa encontrar 3 cartas no total, cada uma com
-            uma cor diferente representando um tipo de sustentabilidade:
-            <br>
-            <b style="color: #2F81F6">Azul</b> para a <b style="color: #2F81F6">Sustentabilidade Social</b>;
-            <br>
-            <b style="color: #FFDE59;">Amarelo</b> para a <b style="color: #FFDE59;">Sustentabilidade Econômica</b>;
-            <br>
-            <b style="color: #7DDA58;">Verde</b> para a Sustentabilidade <b style="color: #7DDA58;">Ambiental</b>.
-          </li>
-          <br>
-          <li>
-            <b>Una e desvende:</b> Cada uma das 3 cartas possui uma parte da pista final.
-            Junte o pedaço de cada carta para completá-la e descombrir onde fica a chegada!
-            Uma das maneiras de encontrar os pedaços que vão te levar a vitória é seguir esta
-            dica: <b style="color: #7DDA58">“</b><i style="font-size: 2vw;"></i>Por onde
-            sobe e desce, sem parar, um manto está a te aguardar. Erga com cuidado o que
-            cobre o chão, e lá estará a próxima revelação.<b style="color: #7DDA58">”</b>.
-          </li>
-          <br>
-          <li>
-            <b>Seja o primeiro:</b> Os 3 primeiros a encontrarem o ponto de chegada e mostrar
-            as 3 cartas para a equipe organizadora ganham um super prêmio!
-          </li>
-        </ol>
-      </div>
-      <div>
-        <h3 class="title">Por que Jogar?</h3>
-        <p>
-          Além de ser divertido, você vai aprender sobre sustentabilidade e como fazer a
-          diferença no mundo. Para te ajudar com isso, aqui vai a ultima dica de partida: 
-          <b style="color: #FFDE59">“</b><i style="font-size: 2vw;">Enquanto a arte
-          ao redor faz você admirar, abaixe-se e veja onde poucos vão olhar. Sob uma
-          mesa, sem ninguém suspeitar, a próxima pista está a te esperar.</i><b style="color: #FFDE59">”</b>.
-        </p>
-        <p>
-          <b>Curiosidade:</b> É mais comum do que vocês imaginam que muitas pessoas
-          não saibam sobre os três pilares da sustentabilidade ou tenham conhecimento
-          apenas de um: o ambiental. Mas, é necessário saber que existem outros dois
-          tão importantes quanto este.
-        </p>
-      </div>
-      <br>
-    </article>
-    <footer>
-    </footer>
-  </body>
-</html>
+b {
+    font-size: 2.6vw;
+}
+
+body {
+    background-color: #181717;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    margin-bottom: 1.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1.5%;
+    text-align: justify;
+}
+
+div {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header{
+    background-color: rgba(37, 37, 37, 0.4);
+    border-radius: 0 0 50% 50%;
+    margin-bottom: 2%;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: -1.5%;
+}
+img{
+    scale: 1vw;
+}
+
+footer {
+    animation: openpage 9s;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0.2cm solid transparent;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: -3%;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: 2%;
+}
+
+p {
+    margin-top: 4%;
+}
+
+.page_banner {
+    animation: banner_anm 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    width: 100%;
+}
+
+.posters_map {
+    border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
+    float: inline-end;
+    margin-top: -5%;
+    width: 40vw;
+    scale: 90%;
+}
+
+.scan_qrcode {
+    border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
+    float: inline-start;
+    margin-top: 7%;
+    width: 40vw;
+    scale: 80%;
+}
+
+.title {
+    text-align: center;
+}
+
+.winner_podium {
+    border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
+    float: inline-end;
+    margin-top: 8%;
+    width: 40vw;
+    scale: 85%;
+}
+
+@keyframes banner_anm {
+    from {margin-top: relative;}
+    to {margin-top: -35%;}
+}
+
+@keyframes openpage {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}

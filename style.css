@@ -53,6 +53,14 @@ p {
     margin-top: 4%;
 }
 
+td {
+    border-top: 0.5vw;
+    border-right: 5vw;
+    border-bottom: 2.6vw;
+    border-style: solid;
+    border-color: rgb(29,29,29);
+}
+
 .page_banner {
     animation: banner_anm 3s;
     animation-delay: 1.5s;
@@ -62,10 +70,9 @@ p {
 
 .posters {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
-    float: inline-start;
-    margin-top: -10%;
-    width: 40vw;
-    scale: 70%;
+
+    width: 25vw;
+    scale: 100%;
 }
 
 .scan_qrcode {

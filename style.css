@@ -75,6 +75,10 @@ td {
     scale: 100%;
 }
 
+.prizecards {
+    width: 30vw;
+}
+
 .scan_qrcode {
     border-radius: 0.5cm 0.5cm 0.5cm 0.5cm;
     float: inline-start;

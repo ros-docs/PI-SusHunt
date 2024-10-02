@@ -76,7 +76,24 @@ td {
 }
 
 .prizecards {
+    border-radius: 10%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 5vw;
     width: 30vw;
+}
+
+.save_button {
+    border-radius: 10vw;
+    color: aliceblue;
+    float: left;
+    margin-top: 30vw;
+    margin-inline-start: -34vw;
+    margin-inline-end: 5%;
+    margin-bottom: 0.6%;
+    padding: 1.5%;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
 .scan_qrcode {
